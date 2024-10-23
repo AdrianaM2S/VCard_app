@@ -19,6 +19,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-assets:
-  - assets/profile.png
-  - assets/qrcode.png
+  assets:
+    - assets/profile.png
+    - assets/qr-code.png

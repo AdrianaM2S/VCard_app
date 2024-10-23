@@ -26,17 +26,17 @@ class VCardScreen extends StatelessWidget {
         title: const Text('Mi Tarjeta Digital'),
         centerTitle: true,
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: const Color.fromARGB(255, 106, 84, 122),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: const Color.fromARGB(255, 225, 219, 255),
               borderRadius: BorderRadius.circular(15),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.grey.withOpacity(0.3),
+                  color: const Color.fromARGB(255, 82, 0, 82).withOpacity(0.3),
                   spreadRadius: 5,
                   blurRadius: 7,
                   offset: const Offset(0, 3), // Desplazamiento de la sombra
@@ -55,13 +55,13 @@ class VCardScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   Text(
-                    'Adriana M. Marrero Sanchez',
+                    'Adriana M. Marrero Sánchez',
                     style: GoogleFonts.lato(
                         fontSize: 28, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 10),
                   Text(
-                    'email@ejemplo.com',
+                    'amarrero7200@arecibointer.edu',
                     style: GoogleFonts.openSans(fontSize: 16),
                   ),
                   const SizedBox(height: 5),
@@ -78,7 +78,7 @@ class VCardScreen extends StatelessWidget {
                   const SizedBox(height: 20),
                   // Código QR (puede ser una imagen estática o generada por un paquete QR)
                   Image.asset(
-                    'assets/qrcode.png',
+                    'assets/qr-code.png',
                     width: 100,
                     height: 100,
                   ),
