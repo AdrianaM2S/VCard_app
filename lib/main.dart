@@ -66,7 +66,7 @@ class VCardScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 5),
                   Text(
-                    '+1 (123) 456-7890',
+                    '+1 (787) 213-2004',
                     style: GoogleFonts.openSans(fontSize: 16),
                   ),
                   const SizedBox(height: 5),
