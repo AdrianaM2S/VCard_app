@@ -55,9 +55,9 @@ class VCardScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                   Text(
-                    'Adriana Marrero Sánchez',
+                    'Adriana M. Marrero Sánchez',
                     style: GoogleFonts.lato(
-                        fontSize: 28, fontWeight: FontWeight.bold),
+                        fontSize: 25, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 10),
                   Text(
