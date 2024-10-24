@@ -1,3 +1,3 @@
 # vcard_app
 
-A new Flutter project.
+Tarjeta de presentación virtual usando Futter.
